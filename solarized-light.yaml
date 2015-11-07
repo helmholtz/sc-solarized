@@ -74,7 +74,7 @@ IDE:
     stepForwardEvaluation: false
   interpreter:
     autoStart: true
-    runtimeDir: /Users/arjun/Documents/Work/SuperCollider
+    runtimeDir: 
   mainWindow:
     detached: !QVariantMap
       documents-dock: ""
@@ -85,15 +85,5 @@ IDE:
   postWindow:
     lineWrap: false
     scrollback: 1000
-  recentDocuments: !QVariantList
-    - /Users/arjun/Documents/Work/SuperCollider/Tuning and Timbre/test.scd
-    - /Users/arjun/Documents/Work/SuperCollider/WindChime.scd
-    - /Users/arjun/Documents/Work/SuperCollider/ImprovedWindChime/SCWindChime/run.scd
-    - /Users/arjun/Documents/Work/SuperCollider/L-system4.scd
-    - /Users/arjun/Documents/Work/SuperCollider/L-system2.scd
-    - /Users/arjun/Documents/Work/SuperCollider/Snippets/visualization-example-redfrik.scd
-    - /Users/arjun/Documents/Work/SuperCollider/modulation.scd
-    - /Users/arjun/Documents/Work/SuperCollider/Hierarchical Patterns/Plazy.scd
-    - /Users/arjun/Documents/Work/SuperCollider/Hierarchical Patterns/hights-clean.scd
-    - /Users/arjun/Documents/Work/SuperCollider/Hierarchical Patterns/hights.scd
+  recentDocuments: 
   startWithSession: ""
