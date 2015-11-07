@@ -1,0 +1,89 @@
+Aliases:
+  - &base03    "#002b36"  
+  - &base02    "#073642"  
+  - &base01    "#586e75" 
+  - &base00    "#657b83" 
+  - &base0     "#839496" 
+  - &base1     "#93a1a1" 
+  - &base2     "#eee8d5" 
+  - &base3     "#fdf6e3" 
+  - &yellow    "#b58900" 
+  - &orange    "#cb4b16" 
+  - &red       "#dc322f" 
+  - &magenta   "#d33682" 
+  - &violet    "#6c71c4" 
+  - &blue      "#268bd2" 
+  - &cyan      "#2aa198" 
+  - &green     "#859900" 
+IDE:
+  editor:
+    blinkDuration: 300
+    colors:
+      evaluatedCode: !textFormat
+        color: *base1
+        background: *base02
+      lineNumbers: !textFormat
+        color: *base00
+        background: *base02
+      matchingBrackets: !textFormat
+        color: *base3
+        background: *base02
+        bold: true
+      mismatchedBrackets: !textFormat
+        color: *base02
+        background: *base1
+      searchResult: !textFormat
+        color: *base01
+        background: *base2
+      selection: !textFormat
+        color: *base03
+        background: *base0
+      text: !textFormat
+        color: *base0
+        background: *base03
+    font:
+      antialias: 2
+      family: Menlo
+      size: 14
+    highlighting:
+      built-in: !textFormat
+        color: "#b58900"
+      char: !textFormat
+        color: "#cb4b16"
+      class: !textFormat
+        color: "#268bd2"
+      comment: !textFormat
+        color: "#586e75"
+        italic: true
+      env-var: !textFormat
+        color: "#d33682"
+      keyword: !textFormat
+        color: "#dc322f"
+        bold: true
+      number: !textFormat
+        color: "#6c71c4"
+      primitive: !textFormat
+        color: "#2aa198"
+      string: !textFormat
+        color: "#93a1a1"
+      symbol: !textFormat
+        color: "#859900"
+    indentWidth: 4
+    lineWrap: false
+    spaceIndent: false
+    stepForwardEvaluation: false
+  interpreter:
+    autoStart: true
+    runtimeDir: 
+  mainWindow:
+    detached: !QVariantMap
+      documents-dock: ""
+      help-dock: ""
+      post-dock: ""
+    geometry: AdnQywABAAAAAAAAAAAAAAAABP8AAAMfAAAAAAAAACoAAAJ/AAADGwAAAAACBA==
+    state: AAAA/wAAAAD9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAfsAAAAcAGQAbwBjAHUAbQBlAG4AdABzAC0AZABvAGMAawAAAAAA/////wAAAGYA////AAAAAQAAAmcAAAMI/AIAAAAC+wAAABIAaABlAGwAcAAtAGQAbwBjAGsBAAAAAAAAAfIAAABMAP////sAAAASAHAAbwBzAHQALQBkAG8AYwBrAQAAAfMAAAEVAAAATAD///8AAAKYAAADCAAAAAEAAAACAAAAAQAAAAL8AAAAAA==
+  postWindow:
+    lineWrap: false
+    scrollback: 1000
+  recentDocuments:
+  startWithSession: ""
