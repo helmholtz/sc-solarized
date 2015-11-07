@@ -8,5 +8,5 @@ Simply replace your `sc_ide_conf.yaml` file (on OS X, this lives in `~/Library/A
 
 ## TODO
 
- *Apply to scdoc css file
- *Further color tweaking
+- Apply to scdoc css file
+- Further color tweaking
