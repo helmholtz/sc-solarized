@@ -47,27 +47,27 @@ IDE:
       size: 14
     highlighting:
       built-in: !textFormat
-        color: "#b58900"
+        color: *yellow
       char: !textFormat
-        color: "#cb4b16"
+        color: *orange
       class: !textFormat
-        color: "#268bd2"
+        color: *blue
       comment: !textFormat
-        color: "#586e75"
+        color: *base01
         italic: true
       env-var: !textFormat
-        color: "#d33682"
+        color: *magenta
       keyword: !textFormat
-        color: "#dc322f"
+        color: *red
         bold: true
       number: !textFormat
-        color: "#6c71c4"
+        color: *violet
       primitive: !textFormat
-        color: "#2aa198"
+        color: *cyan
       string: !textFormat
-        color: "#93a1a1"
+        color: *base1
       symbol: !textFormat
-        color: "#859900"
+        color: *yellow
     indentWidth: 4
     lineWrap: false
     spaceIndent: false
